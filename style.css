@@ -29,10 +29,12 @@ body {
 }
 
 .header__menu {
+    width: 533px;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
     display: flex;
-    gap: 34px;
+    justify-content: space-between;
+    /* gap: 34px; */
 }
 
 .top__content {
