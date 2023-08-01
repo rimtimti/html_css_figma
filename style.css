@@ -14,8 +14,8 @@ body {
 }
 
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 590px);
+    padding-right: calc(50% - 590px);
 }
 
 .header {
@@ -34,7 +34,6 @@ body {
     font-size: 14px;
     display: flex;
     justify-content: space-between;
-    /* gap: 34px; */
 }
 
 .top__content {
@@ -74,10 +73,13 @@ body {
 }
 
 .logo {
+    padding-right: 30px;
     padding-top: 97px;
     padding-bottom: 96px;
     display: flex;
-    gap: 48px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -98,7 +100,6 @@ body {
     height: 50px;
     flex-shrink: 0;
     border-radius: 50px;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 }
 
 .button_1 {
