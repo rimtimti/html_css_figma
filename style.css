@@ -89,6 +89,7 @@ body {
 }
 
 .button {
+    border: 0;
     font-family: Gilroy-Bold;
     font-size: 15px;
     width: 140px;
