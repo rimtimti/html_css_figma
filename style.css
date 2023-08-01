@@ -88,11 +88,9 @@ body {
     gap: 72px;
 }
 
-.button_1 {
-    color: #FFF;
+.button {
     font-family: Gilroy-Bold;
     font-size: 15px;
-    background: #F25822;
     width: 140px;
     height: 50px;
     flex-shrink: 0;
@@ -100,14 +98,12 @@ body {
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 }
 
+.button_1 {
+    color: #FFF;
+    background: #F25822;
+}
+
 .button_2 {
     color: #AAA;
-    font-family: Gilroy-Bold;
-    font-size: 15px;
     background: #FFF;
-    width: 140px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20)
 }
